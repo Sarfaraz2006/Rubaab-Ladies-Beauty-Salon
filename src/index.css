@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-salon-bg: #ffffff;
+  --color-salon-card: #f8e8ee;
+  --color-salon-accent: #f5f5dc;
+  --color-salon-gold: #d4af37;
+  --color-salon-gold-hover: #c19b2e;
+  --color-salon-text: #333333;
+  --color-salon-text-light: #666666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-salon-bg);
+  color: var(--color-salon-text);
+}
+
+/* Custom scrollbar for a luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-salon-bg); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-salon-card); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-salon-gold); 
+}
