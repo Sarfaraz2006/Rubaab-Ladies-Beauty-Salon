@@ -39,7 +39,7 @@ export default function Layout() {
       >
         <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
           <Link to="/" className="text-2xl md:text-3xl font-serif font-bold tracking-wider text-salon-text">
-            RUBAAB SALON
+            ELEGANCE SALON
           </Link>
 
           {/* Desktop Nav */}
@@ -131,7 +131,7 @@ export default function Layout() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
             <div>
               <Link to="/" className="text-3xl font-serif font-bold tracking-wider text-salon-text mb-8 block">
-                RUBAAB SALON
+                ELEGANCE SALON
               </Link>
               <p className="text-salon-text-light leading-relaxed mb-8 font-light">
                 Experience the pinnacle of luxury beauty services. We combine artistry, premium products, and unparalleled service to reveal your perfect look.
@@ -167,15 +167,15 @@ export default function Layout() {
               <ul className="space-y-6 text-salon-text-light font-light">
                 <li className="flex items-start">
                   <MapPin size={22} className="mr-4 text-salon-gold shrink-0 mt-1" />
-                  <span className="leading-relaxed">Bur Dubai, UAE<br />(Near Sharaf DG Metro Station)</span>
+                  <span className="leading-relaxed">Mayfair, London, UK<br />(Near Green Park Station)</span>
                 </li>
                 <li className="flex items-center">
                   <Phone size={22} className="mr-4 text-salon-gold shrink-0" />
-                  <a href="tel:+971543727666" className="hover:text-salon-gold transition-colors">+971 54 372 7666</a>
+                  <a href="tel:+442071234567" className="hover:text-salon-gold transition-colors">+44 20 7123 4567</a>
                 </li>
                 <li className="flex items-center">
                   <Mail size={22} className="mr-4 text-salon-gold shrink-0" />
-                  <a href="mailto:hello@rubaabsalon.com" className="hover:text-salon-gold transition-colors">hello@rubaabsalon.com</a>
+                  <a href="mailto:hello@elegancesalon.demo" className="hover:text-salon-gold transition-colors">hello@elegancesalon.demo</a>
                 </li>
               </ul>
             </div>
@@ -192,7 +192,7 @@ export default function Layout() {
           </div>
 
           <div className="border-t border-salon-card pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-salon-text-light font-light">
-            <p>&copy; {new Date().getFullYear()} Rubaab Ladies Beauty Salon. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Elegance Beauty Salon. All rights reserved.</p>
             <div className="mt-4 md:mt-0 space-x-6">
               <a href="#" className="hover:text-salon-text transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-salon-text transition-colors">Terms of Service</a>

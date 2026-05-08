@@ -9,9 +9,9 @@ export default function Services() {
       desc: 'Expert hair care and styling for a flawless look.',
       img: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=2669&auto=format&fit=crop',
       services: [
-        { name: 'Haircut & Styling', price: 'From AED 150', duration: '60 min', desc: 'Precision cuts tailored to your face shape.' },
-        { name: 'Hair Coloring', price: 'From AED 300', duration: '120 min', desc: 'Vibrant, long-lasting color with premium products.' },
-        { name: 'Keratin & Hair Treatments', price: 'From AED 400', duration: '150 min', desc: 'Smooth, frizz-free hair with deep nourishment.' },
+        { name: 'Haircut & Styling', price: 'From £35', duration: '60 min', desc: 'Precision cuts tailored to your face shape.' },
+        { name: 'Hair Coloring', price: 'From £75', duration: '120 min', desc: 'Vibrant, long-lasting color with premium products.' },
+        { name: 'Keratin & Hair Treatments', price: 'From £100', duration: '150 min', desc: 'Smooth, frizz-free hair with deep nourishment.' },
       ]
     },
     {
@@ -19,8 +19,8 @@ export default function Services() {
       desc: 'Beautifully crafted nails for every occasion.',
       img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=2669&auto=format&fit=crop',
       services: [
-        { name: 'Manicure & Pedicure', price: 'From AED 120', duration: '60 min', desc: 'Complete nail care, shaping, and polish.' },
-        { name: 'Nail Extensions & Nail Art', price: 'From AED 250', duration: '90 min', desc: 'Custom designs and durable extensions.' },
+        { name: 'Manicure & Pedicure', price: 'From £30', duration: '60 min', desc: 'Complete nail care, shaping, and polish.' },
+        { name: 'Nail Extensions & Nail Art', price: 'From £60', duration: '90 min', desc: 'Custom designs and durable extensions.' },
       ]
     },
     {
@@ -28,8 +28,8 @@ export default function Services() {
       desc: 'Rejuvenating treatments for a radiant, healthy glow.',
       img: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2670&auto=format&fit=crop',
       services: [
-        { name: 'Facials & Skincare', price: 'From AED 200', duration: '60 min', desc: 'Deep cleansing and hydration for all skin types.' },
-        { name: 'Cleanup & Bleach', price: 'From AED 100', duration: '45 min', desc: 'Quick refresh for a bright, even complexion.' },
+        { name: 'Facials & Skincare', price: 'From £50', duration: '60 min', desc: 'Deep cleansing and hydration for all skin types.' },
+        { name: 'Cleanup & Bleach', price: 'From £25', duration: '45 min', desc: 'Quick refresh for a bright, even complexion.' },
       ]
     },
     {
@@ -37,8 +37,8 @@ export default function Services() {
       desc: 'Smooth, hair-free skin with gentle techniques.',
       img: 'https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=2673&auto=format&fit=crop',
       services: [
-        { name: 'Waxing', price: 'From AED 50', duration: '30 min', desc: 'Effective hair removal for long-lasting smoothness.' },
-        { name: 'Threading', price: 'From AED 30', duration: '15 min', desc: 'Precise shaping for eyebrows and facial hair.' },
+        { name: 'Waxing', price: 'From £15', duration: '30 min', desc: 'Effective hair removal for long-lasting smoothness.' },
+        { name: 'Threading', price: 'From £10', duration: '15 min', desc: 'Precise shaping for eyebrows and facial hair.' },
       ]
     },
     {
@@ -46,9 +46,9 @@ export default function Services() {
       desc: 'Look your absolute best for your special moments.',
       img: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=2671&auto=format&fit=crop',
       services: [
-        { name: 'Bridal Makeup', price: 'From AED 1500', duration: '180 min', desc: 'Flawless, long-lasting makeup for your big day.' },
-        { name: 'Party Makeup', price: 'From AED 400', duration: '90 min', desc: 'Glamorous looks tailored to your event.' },
-        { name: 'Henna Design', price: 'From AED 100', duration: '60 min', desc: 'Intricate, beautiful henna patterns.' },
+        { name: 'Bridal Makeup', price: 'From £400', duration: '180 min', desc: 'Flawless, long-lasting makeup for your big day.' },
+        { name: 'Party Makeup', price: 'From £100', duration: '90 min', desc: 'Glamorous looks tailored to your event.' },
+        { name: 'Henna Design', price: 'From £25', duration: '60 min', desc: 'Intricate, beautiful henna patterns.' },
       ]
     }
   ];

@@ -45,7 +45,7 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
             className="text-lg md:text-2xl text-salon-text-light mb-12 font-light tracking-wide max-w-3xl mx-auto"
           >
-            Premium beauty services in the heart of Dubai
+            Premium beauty services in the heart of London
           </motion.p>
           
           <motion.div 
@@ -132,7 +132,7 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-4xl md:text-6xl font-serif font-bold text-salon-text mb-8 leading-tight">The Rubaab <br/><span className="text-salon-gold italic font-light">Experience</span></h2>
+              <h2 className="text-4xl md:text-6xl font-serif font-bold text-salon-text mb-8 leading-tight">The Elegance <br/><span className="text-salon-gold italic font-light">Experience</span></h2>
               <p className="text-salon-text-light mb-12 leading-relaxed text-lg font-light">
                 We believe that beauty is an art form. Our salon is a sanctuary where you can escape the hustle of daily life and indulge in premium treatments designed to enhance your natural beauty.
               </p>

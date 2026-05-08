@@ -46,7 +46,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-6">
                     <h3 className="text-xl font-serif text-salon-text mb-2">Location</h3>
-                    <p className="text-salon-text-light font-light leading-relaxed">Bur Dubai, UAE<br />(Near Sharaf DG Metro Station)</p>
+                    <p className="text-salon-text-light font-light leading-relaxed">Mayfair, London, UK<br />(Near Green Park Station)</p>
                   </div>
                 </div>
                 
@@ -57,7 +57,7 @@ export default function Contact() {
                   <div className="ml-6">
                     <h3 className="text-xl font-serif text-salon-text mb-2">Phone</h3>
                     <p className="text-salon-text-light font-light leading-relaxed">
-                      <a href="tel:+971543727666" className="hover:text-salon-gold transition-colors">+971 54 372 7666</a>
+                      <a href="tel:+442071234567" className="hover:text-salon-gold transition-colors">+44 20 7123 4567</a>
                     </p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                   <div className="ml-6">
                     <h3 className="text-xl font-serif text-salon-text mb-2">Email</h3>
                     <p className="text-salon-text-light font-light leading-relaxed">
-                      <a href="mailto:hello@rubaabsalon.com" className="hover:text-salon-gold transition-colors">hello@rubaabsalon.com</a>
+                      <a href="mailto:hello@elegancesalon.demo" className="hover:text-salon-gold transition-colors">hello@elegancesalon.demo</a>
                     </p>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function Contact() {
           className="mt-32 rounded-3xl overflow-hidden border border-salon-card shadow-sm h-[500px] relative"
         >
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115536.03577322967!2d55.19504855!3d25.18434685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sus!4v1709825634567!5m2!1sen!2sus" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.72810577907!2d-0.24168153703905953!3d51.52877184087611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1709825634567!5m2!1sen!2sus" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 

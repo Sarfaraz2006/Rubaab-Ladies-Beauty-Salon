@@ -63,9 +63,9 @@ export default function Booking() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const message = `*Rubaab Ladies Beauty Salon - Booking Request*
+    const message = `*Elegance Beauty Salon - Booking Request*
 
-Hello Rubaab Ladies Beauty Salon,
+Hello Elegance Beauty Salon,
 
 I would like to book an appointment.
 
@@ -82,7 +82,7 @@ Time: ${formData.time}
 Please confirm my booking. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/971543727666?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/442071234567?text=${encodedMessage}`;
 
     setTimeout(() => {
       window.location.href = whatsappUrl;
@@ -180,7 +180,7 @@ Please confirm my booking. Thank you!`;
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full bg-transparent border-b border-salon-text/20 pl-8 pr-0 py-3 text-salon-text focus:outline-none focus:border-salon-gold transition-colors font-light placeholder:text-salon-text-light/50"
-                      placeholder="+971 54 372 7666"
+                      placeholder="+44 20 7123 4567"
                     />
                   </div>
                 </div>

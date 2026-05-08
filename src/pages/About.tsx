@@ -65,7 +65,7 @@ export default function About() {
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-salon-text mb-8 leading-tight">Redefining Beauty <br/><span className="text-salon-gold italic font-light">Standards</span></h2>
             <div className="space-y-6 text-salon-text-light font-light text-lg leading-relaxed">
               <p>
-                Founded in 2014, Rubaab Ladies Beauty Salon was born from a vision to create a sanctuary where luxury meets artistry in the heart of Dubai. We believe that every client deserves a bespoke experience tailored to their unique features and lifestyle.
+                Founded in 2014, Elegance Beauty Salon was born from a vision to create a sanctuary where luxury meets artistry in the heart of London. We believe that every client deserves a bespoke experience tailored to their unique features and lifestyle.
               </p>
               <p>
                 Our salon is more than just a place to get your hair done; it's an immersive experience. From the moment you step through our doors, you are enveloped in an atmosphere of sophistication, cleanliness, and tranquility.
